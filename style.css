@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 17px;
+}
+body{
+    /* position: relative; */
+    left: 20px;
+    right: 20px;
+    height: auto;
+}
+nav{
+    height: 9%;
+    width: 100%;
+    /* position: relative; */
+    position: fixed;
+ 
+    right: 10px;
+    box-shadow: 0 0 7px gray;
+    background-color: white;
+}
+nav .navbar-logo{
+    float: left;
+    line-height: 60px;
+    margin-left: 40px;
+}
+nav .navbar-container{
+    float: right;
+    
+   
+}
+nav .navbar-container li{
+    
+    display:inline-block ;
+   margin-right: 100px;
+   line-height: 60px
+   
+}
+nav a {
+    color: black;
+    text-decoration: none;
+}
+.content1 {
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    margin-right: 20px;
+    height: 400px;
+    background-image: url();
+}
+.content1-text{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.content-picture1 {
+    margin-left: 50px;
+    margin-top: 90px;
+}
+.content1 img {
+    border-radius: 50%;
+    width: 200px;
+    
+}
+.content2{
+    height: 200px;
+    align-items: center;
+   
+}
+.content2 h3{
+text-align: center;
+}
+.content2 .card{
+    display: inline-block;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid black; */
+    
+}
+.content2-card{
+    align-items: center;
+    margin-left: 175px;
+}
+.content2 .card :hover{
+    border: 1px solid ;
+}
+
+.content3 h3{
+    text-align: center;
+}
+
+.content4 {
+    margin-top: 100px;
+    margin-left: 60px;
+    display: inline-block;
+    /* background-color: black; */
+}
+/* .contetn4 .content-judul{
+    margin-left: 100px;
+} */
+.content4 .content4-isi{
+    display: inline-block;
+    padding: 50px;
+    list-style: none;
+    text-align: center;
+}
+.content4 h3{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.content4 .content4-isi a{
+    text-decoration: none;
+    color:gray;
+}
+
+footer {
+    margin-top: 300px;
+    border: 1px solid black;
+    height: 120px;
+    
+}
+footer h3 {
+    text-align: center;
+    
+}
+
+footer .footer-smd{
+    float: left;
+}
+footer .footer-wa{
+    float: right;
+}
+footer .footer-img{
+    align-items: center;
+}
